@@ -12,7 +12,7 @@ This is a Python program for encrypting and decrypting files using the Fernet al
 
 The program is executed from the command line and offers the following options:
 
-python program_name.py [-h] [-reverse <password>] [-silent] [-version]
+'python program_name.py [-h] [-reverse <password>] [-silent] [-version]'
 
 
 - `-h`, `--help`: Show the help message and exit.
@@ -30,7 +30,7 @@ The program generates an encryption key using Fernet and prints it to the consol
 
 File decryption is performed using the **`decrypt_files`** function. To decrypt the files, run the program with the **`-reverse`** option followed by the password used to encrypt the files. For example:
 
-python program_name.py -reverse <password>
+'python program_name.py -reverse <password>'
 
 
 The program will search for files with the ".ft" extension in the "infection" folder and decrypt them using the provided password. The decrypted files will be saved in the same folder with their original names.
@@ -39,23 +39,23 @@ The program will search for files with the ".ft" extension in the "infection" fo
 
 - Encrypt files:
 
-python program_name.py
+'python program_name.py'
 
 
 - Decrypt files:
 
 
-python program_name.py -reverse <password>
+'python program_name.py -reverse <password>'
 
 
 - Encrypt files silently:
 
-python program_name.py -silent
+'python program_name.py -silent'
 
 
 - Decrypt files silently:
 
-python program_name.py -reverse <password> -silent
+'ython program_name.py -reverse <password> -silent'
 
 
 ## Notes
